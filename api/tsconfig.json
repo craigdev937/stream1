@@ -1,0 +1,21 @@
+{
+    "compilerOptions": {
+        "moduleResolution": "node",
+        "sourceMap": true,
+        "strict": true,
+        "strictNullChecks": true,
+        "strictPropertyInitialization": false,
+        "outDir": "./dist",
+        "module": "commonjs",
+        "target": "es2018",
+        "lib": ["dom", "esnext", "esnext.asynciterable"],
+        "allowSyntheticDefaultImports": true,
+        "esModuleInterop": true,
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+    },
+    "exclude": ["node_modules", "./generated"],
+    "include": ["./src/**/*.ts"]
+}
+
+
